@@ -5,6 +5,8 @@ import discord
 import random
 import re
 
+from os import getenv
+
 # 自分のBotのアクセストークンに置き換えてください
 TOKEN = getenv('DISCORD_BOT_TOKEN')
 
