@@ -1,6 +1,6 @@
 # インストールした discord.py を読み込む
 from enum import Flag
-from tkinter import N
+# from tkinter import N
 import discord
 import random
 import re
