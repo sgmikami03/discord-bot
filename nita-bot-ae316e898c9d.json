@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nita-bot",
+  "private_key_id": "ae316e898c9d9f2bd85d7da764159d774dbfc69f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcBMjKUafDKNzI\nVNah0LC/pXJmKywz+PrDvs8TTgo9mTRO2PizdgSFaIDYYygc8ZXvnxB7x8kEoHag\nUuU51lIDxI8Ed4g40vjtKt+Fl7V86rwCs0GGSbaVC3e8t7cCNvoH7ufwW9tA34Re\n7YtG0jJcF0dtFAKhKIb0IQunHosa/Xb/Qx9zrYwhvJnUAXziRdLow9VbwjR3ixVj\noEdplBoYar9zohvo5LJeo+B2pyEfYZt112Y/doNWG4C2el5jL7qmDwVXyVxC+fCa\nR0t7JzkGZSVWApw8gl4jT0XhbfU4ZTYzegAzhvY5rvjilpYVbO1DJocd+Fon9rmw\nwlpNuICPAgMBAAECggEAD8Oz/i1uBBw24s8fuM37bgHro0MtfjrkK682AT9bbYnz\nbRwjVQ7RuiErE7JBNVt7yPCLm9Y+C4ejNOPrYYK0Wskbolnpm8RFfsFcQIVpwyt8\nv9EZB9ae6kR0Xs85YLHpZa/QI8tERjPPjj/2WLuYdxGrF+xzr5EGwdgs8z/00k8t\nmrbQN2CfCwrsWBkq1GpynvJmda2ayOQn0k5arZN9Hb/BPUuHNBbSdcSigeDwlwRQ\naN8ujp0iotmgL8m8IxIjuktyNiJjcISchNfVZ42jQZetvl2eh8sGrf+HPM4DvRaA\npLanVx9U1ciM3lAD0JgL576J004jAALOm/BTz3Tl4QKBgQDX8V2GzzsdFxrKjrxG\nBFwKunXtesPkp+jv0eri+Kl6sUJNK7soScrCgMx0i3maNAdTb32gwWcA6UoVqyqg\nPeo1ufN7wiySHXBYtM3NyDtKMMohOaUJRQwsiXcbEXoVtZ0XLvnZC0Et8ODBElyf\npRmImY3TUgBXxQSE2rzgmF0HpwKBgQC49cHqq1+NSS8EHdtoSgggu8HASf0iVDKM\nncNtGnfu6lVAre6qB46WsjEZjhu5y9lqE4Kx3I4bq4NJbvo7XqF/LxjPzi+iD5PC\nXXViMoiMSJ5dzEnmkfXT2hZwE464WGbxWlnNFyjKLJu0QxY8nrjQrxGk9S5GV+Wo\nKmqd+ptc2QKBgFcL8rmO+7NERwZz9yz6QOgKNdNe82xOyzUxF1AbEKZmoeVdxXn+\nFP/Gz6QDPSeN5Y4amTed/pl9cOG/N9WUX778kEvJABJ+T3VSnMtg9ZV4iWJPTFmq\nPbgOSbbdmqr5pLNdulVllgag3Ni3QCMSeHJ6A5O1sHGw95teWVjn0khtAoGAX6o1\nH1R+Oox0tfNfbWSFKbETOIrMU7oq3xImZ0L+b2Niru6HeAgqlwUZYjdfXczy6eun\neKk0E1m1sQCmipiafTb15V2mw3K9IRXHxf+PIsfYqXklbA1okafGXTewZObMb98k\nfXCSF2fVLPpaAQazXrR+Mszhn16NGVq/BHD/dJkCgYB2UljWHzj+Uj0czr5BeBO3\nrsZkSoetsHmZceh+tz0Bqg9MZifdG+qollEnB64bzZasChQh0emY/kh38WJRTE/X\n1MGc4vs5kaEmZKCOM7ixfUyI9lVNZR0cZ71vTa00SnWLpG68KaAfU3ub4qYqabAv\nvkqkvJTv1beGkS61xT4lhA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "discord-bot@nita-bot.iam.gserviceaccount.com",
+  "client_id": "106113396509130653817",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/discord-bot%40nita-bot.iam.gserviceaccount.com"
+}
