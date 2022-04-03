@@ -141,8 +141,8 @@ async def on_message(message):
         await message.channel.send(reply)
     
     
-  pattern = re.compile(r'\A/nita-userset')
-  if pattern.search(message.content):
+    pattern = re.compile(r'\A/nita-userset')
+    if pattern.search(message.content):
         worksheet = gc.open_by_key(SPREADSHEET_KEY).worksheet('List')
         input_sample = message.content.split()
         input_sample.pop(0)
