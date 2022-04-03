@@ -49,7 +49,7 @@ async def on_message(message):
     
     if message.content == '/nitahow':
         await message.channel.send(
-            "--本botの使い方 登録削除--\n・登録\n/nitas track time name\n例: /nitaset 1 200000 そーすけ (そーすけのマリカスが2:00.000の場合)\n\n・削除\n/nitad id\n(例: /nitadelete 1)\n\ntrackは下記を参考\nパリ49|キノサ50|うん山51|ココモ52|東京53|キノリ54|GBAスカ55|ニンニン56\nhttps://cdn.discordapp.com/attachments/949955031552114708/952426641374720021/1-48R_trackList.png"
+            "--本botの使い方 登録削除--\n・登録\n/nitas track time name\n例: /nitaset 1 200000 そーすけ (そーすけのマリカスが2:00.000の場合)\n\n・削除\n/nitad track name\n(例: /nitad 1 そーすけ)\n\ntrackは下記を参考\nパリ49|キノサ50|うん山51|ココモ52|東京53|キノリ54|GBAスカ55|ニンニン56\nhttps://cdn.discordapp.com/attachments/949955031552114708/952426641374720021/1-48R_trackList.png"
         )
 
     # /nassy と言ったらなっしーさんのしょうもないダジャレが聞けます
