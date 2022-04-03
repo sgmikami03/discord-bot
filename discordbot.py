@@ -112,7 +112,7 @@ async def on_message(message):
         await message.channel.send(reply)
 
 
-   pattern = re.compile(r'\A/nitad')
+    pattern = re.compile(r'\A/nitad')
     if pattern.search(message.content):
         worksheet = gc.open_by_key(SPREADSHEET_KEY).worksheet('List')
         input_sample = message.content.split()
@@ -141,7 +141,7 @@ async def on_message(message):
         await message.channel.send(reply)
     
     
-    pattern = re.compile(r'\A/nita-userset')
+  pattern = re.compile(r'\A/nita-userset')
     if pattern.search(message.content):
         worksheet = gc.open_by_key(SPREADSHEET_KEY).worksheet('List')
         input_sample = message.content.split()
