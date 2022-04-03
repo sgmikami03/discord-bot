@@ -49,7 +49,7 @@ async def on_message(message):
     
     if message.content == '/nitahow':
         await message.channel.send(
-            "--本botの使い方 登録削除--\n・登録\n/nitas track time name\n例: /nitaset 1 200000 そーすけ (そーすけのマリカスが2:00.000の場合)\ntrackは下記を参考https://cdn.discordapp.com/attachments/949955031552114708/952426641374720021/1-48R_trackList.png\n\n・削除\n/nitad id\n(例: /nitadelete 1)"
+            "--本botの使い方 登録削除--\n・登録\n/nitas track time name\n例: /nitaset 1 200000 そーすけ (そーすけのマリカスが2:00.000の場合)\n\n・削除\n/nitad id\n(例: /nitadelete 1)\n\ntrackは下記を参考\nパリ49|キノサ50|うん山51|ココモ52|東京53|キノリ54|GBAスカ55|ニンニン56\nhttps://cdn.discordapp.com/attachments/949955031552114708/952426641374720021/1-48R_trackList.png"
         )
 
     # /nassy と言ったらなっしーさんのしょうもないダジャレが聞けます
@@ -112,7 +112,7 @@ async def on_message(message):
         await message.channel.send(reply)
 
 
-    pattern = re.compile(r'\A/nitad')
+   pattern = re.compile(r'\A/nitad')
     if pattern.search(message.content):
         worksheet = gc.open_by_key(SPREADSHEET_KEY).worksheet('List')
         input_sample = message.content.split()
@@ -120,7 +120,7 @@ async def on_message(message):
 
         input_sample[0] = int(input_sample[0])
 
-        data = str(int(worksheet.acell('A1').value) + 1)
+        await message.channel.send(input_sample[1])
 
         flag = True
         
@@ -133,8 +133,8 @@ async def on_message(message):
             #print(str(input_sample[2]))
             if (str(range_user[i].value) == str(input_sample[1])):
                 flag = False
-                worksheet.update_cell(input_sample[0] * 2 ,i + 2, "")
-                reply = "記録を削除しました。"
+                worksheet.update_cell(i + 2, input_sample[0] * 2, "")
+                reply = "記録を削除しました"
                 break
         if(flag):
             reply = "そんなuserいないよ？"
