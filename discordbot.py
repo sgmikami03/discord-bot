@@ -123,6 +123,8 @@ async def on_message(message):
         await message.channel.send(input_sample[1])
 
         flag = True
+         
+        data = str(int(worksheet.acell('A1').value) + 1)
         
         reply = ""
         range_user = worksheet.range('A2:A' + data)
